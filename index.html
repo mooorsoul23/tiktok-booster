@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фейковий TikTok Бустер</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f0f0; text-align: center; }
+        h1 { color: #333; }
+        button { margin: 10px; padding: 12px 20px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+    <h1>Фейковий TikTok Бустер 🎭</h1>
+    <button onclick="increaseViews()">Накрутити перегляди</button>
+    <button onclick="comment()">Коментувати</button>
+    <button onclick="like()">Лайкнути</button>
+
+    <script>
+        function increaseViews() {
+            alert('Перегляди успішно накручені! 😉');
+        }
+        function comment() {
+            const userComment = prompt('Введіть ваш коментар:');
+            if (userComment) {
+                alert('Ваш коментар: "' + userComment + '" успішно додано!');
+            }
+        }
+        function like() {
+            alert('Ви лайкнули відео! ❤️');
+        }
+    </script>
+</body>
+</html>
